@@ -1,0 +1,6 @@
+{
+  "name": "crab-desk",
+  "description": "Crab Desk: a Claude Code panel for your projects, the chats that need you, and your Claude Code time",
+  "owner": { "name": "ThomasChenTheButt" },
+  "plugins": [{ "name": "crab-desk", "source": "./" }]
+}

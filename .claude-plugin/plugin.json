@@ -1,0 +1,48 @@
+{
+  "name": "crab-desk",
+  "version": "0.12.0",
+  "description": "Tuan's Working Terminal: your projects, the chats that need you, a crab picture of who's working and who's waiting, with crabs walking between them, and your Claude Code time",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Thomas"
+  },
+  "userConfig": {
+    "font": {
+      "type": "string",
+      "title": "Font",
+      "description": "The font for everything Tuan's Working Terminal draws: tiles, project and chat rows, and the usage view. Chinese text falls back to PingFang TC. The app's own buttons keep the app's font.",
+      "default": "System",
+      "options": [
+        "System",
+        "Avenir Next",
+        "Helvetica Neue",
+        "Futura",
+        "Gill Sans",
+        "Optima",
+        "Rockwell",
+        "Georgia",
+        "Baskerville",
+        "Didot",
+        "American Typewriter",
+        "Menlo",
+        "Monaco",
+        "Courier New",
+        "Chalkboard SE",
+        "PingFang TC",
+        "Songti TC",
+        "Hiragino Sans"
+      ]
+    },
+    "motion": {
+      "type": "string",
+      "title": "Motion",
+      "description": "Whether the crabs and scenes move. Follow macOS holds them still when Reduce Motion is on in System Settings → Accessibility → Display; Calm always holds them still; Full always lets them move.",
+      "default": "Follow macOS",
+      "options": [
+        "Follow macOS",
+        "Full",
+        "Calm"
+      ]
+    }
+  }
+}
